@@ -1,0 +1,42 @@
+{
+  "type": "FeatureCollection",
+  "name": "corrientes_demo_simplified",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": { "kind": "boundary", "name": "Corrientes (simplificado)" },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-58.867, -27.440],
+          [-58.800, -27.440],
+          [-58.800, -27.500],
+          [-58.867, -27.500],
+          [-58.867, -27.440]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "kind": "road", "name": "Av. 3 de Abril" },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-58.860, -27.460],
+          [-58.810, -27.460]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "kind": "road", "name": "Av. Ferré" },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-58.855, -27.470],
+          [-58.805, -27.490]
+        ]
+      }
+    }
+  ]
+}

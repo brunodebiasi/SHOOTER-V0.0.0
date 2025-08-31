@@ -1,0 +1,17 @@
+{
+  "name": "threejs-multiplayer-demo",
+  "version": "1.0.0",
+  "description": "Demo multijugador simple con Node.js (ws) y Three.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server/server.js",
+    "dev": "nodemon server/server.js",
+    "watch:client": "browser-sync start --proxy http://localhost:3001 --files \"client/**/*.{html,js,css}\" --no-open"
+  },
+  "dependencies": {
+    "ws": "^8.18.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
